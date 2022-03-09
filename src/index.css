@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "QualcommNext-Italic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/QualcommNext-Italic.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "QualcommNext-Medium";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/QualcommNext-Medium.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "QualcommNext-MediumItalic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/QualcommNext-MediumItalic.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "QualcommNext-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/QualcommNext-Regular.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "QualcommNext-Thin";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/QualcommNext-Thin.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "QualcommNext-ThinItalic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/QualcommNext-ThinItalic.ttf");
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  overflow: auto;
+  font-family: "QualcommNext-Regular";
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.react-transform-wrapper {
+  top: 1rem;
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+}
+
+::-webkit-scrollbar-button {
+  height: 0;
+  width: 0;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  background-clip: padding-box;
+  border: 6px solid transparent;
+  min-height: 28px;
+  border-radius: 10px;
+  box-shadow: inset 1px 1px 0 rgb(0 0 0 / 10%), inset 0 -1px 0 rgb(0 0 0 / 7%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  /* background-image: url("./assets/images/sidebar/close-search.svg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1em;
+  width: 1em;
+  padding: 2px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 2000px) {
+  body {
+    font-size: 70%;
+  }
+}
+
+@media screen and (min-width: 2100px) {
+  body {
+    font-size: 75%;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  body {
+    font-size: 110%;
+  }
+}

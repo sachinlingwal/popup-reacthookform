@@ -1,0 +1,119 @@
+form {
+  display: flex;
+  width: 90%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.main_container {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  margin: 1em 1em 4em 0;
+  margin-left: 2em;
+}
+.column_one,
+.column_two {
+  flex: 1;
+}
+
+.input_field_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: #5a5a5a;
+  font-weight: bold;
+  height: 4.9em;
+  margin-bottom: 1em;
+}
+
+.errror_msg {
+  font-size: 0.6rem;
+  color: red;
+  margin-top: 0;
+}
+
+.input_field_div input {
+  border-radius: 4px;
+  outline: none;
+  padding: 0.5rem;
+  width: 18em;
+  height: 2.1em;
+  background: #ffffff;
+  border: 0.5px solid #908f8f;
+  font-family: inherit;
+}
+.input_field_div label {
+  margin-bottom: 0.5em;
+  font-weight: 500;
+  font-size: 1.2em;
+  color: #5a5a5a;
+}
+
+.input_field_div select {
+  border-radius: 4px;
+  outline: none;
+  border: 0.5px solid #908f8f;
+  padding: 0.5rem;
+  width: 85%;
+  height: 80%;
+}
+
+.footer {
+  flex: 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  margin-top: 7em;
+  width: 53em;
+}
+
+.footer button {
+  margin-right: 0.5rem;
+  padding: 0.7rem 2rem;
+  border-radius: 21px;
+  outline: none;
+  border: none;
+  color: #c3c3c3;
+  border: 0.5px solid #c3c3c3;
+  font-size: 1.1em;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.footer button:hover {
+  background: #4d6994;
+  color: #ffffff;
+  margin-right: 0.5rem;
+  padding: 0.7rem 2rem;
+  border-radius: 21px;
+  outline: none;
+  border: none;
+  border: 0.5px solid #c3c3c3;
+  font-size: 1.1em;
+  font-weight: normal;
+  font-style: normal;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="text"]::placeholder,
+.input_field_div input[type="text"]::-webkit-input-placeholder,
+.input_field_div input[type="email"]::-webkit-input-placeholder,
+.input_field_div input[type="number"]::-webkit-input-placeholder {
+  color: #c0c0c0;
+  font-weight: 400;
+  font-size: 0.8em;
+}
+
+.uploadInputAvatar > p {
+  margin: 0;
+  color: #5a5a5a;
+  font-weight: 500;
+  margin-left: 1.5rem;
+}
